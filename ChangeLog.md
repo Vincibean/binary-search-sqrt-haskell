@@ -1,3 +1,3 @@
-# Changelog for haskell-binary-search-sqrt
+# Changelog for binary-search-sqrt-haskell
 
 ## Unreleased changes
