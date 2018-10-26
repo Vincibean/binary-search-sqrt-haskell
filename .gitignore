@@ -1,5 +1,5 @@
 .stack-work/
-haskell-binary-search-sqrt.cabal
+binary-search-sqrt-haskell.cabal
 *~
 
 # Created by https://www.gitignore.io/api/vim,git,macos,linux,emacs,haskell,windows
