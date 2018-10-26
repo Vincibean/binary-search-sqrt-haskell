@@ -1,10 +1,10 @@
-name:                haskell-binary-search-sqrt
+name:                binary-search-sqrt-haskell
 version:             0.1.0.0
-github:              "githubuser/haskell-binary-search-sqrt"
-license:             BSD3
-author:              "Author name here"
-maintainer:          "example@example.com"
-copyright:           "2018 Author name here"
+github:              "Vincibean/binary-search-sqrt-haskell"
+license:             Unlicense
+author:              "Andrea Bessi"
+maintainer:          "andrebessi00@gmail.com"
+copyright:           "2018 Andrea Bessi"
 
 extra-source-files:
 - README.md
@@ -17,7 +17,7 @@ extra-source-files:
 # To avoid duplicated efforts in documentation and dealing with the
 # complications of embedding Haddock markup inside cabal files, it is
 # common to point users to the README.md file.
-description:         Please see the README on GitHub at <https://github.com/githubuser/haskell-binary-search-sqrt#readme>
+description:         Please see the README on GitHub at <https://github.com/githubuser/binary-search-sqrt-haskell#readme>
 
 dependencies:
 - base >= 4.7 && < 5
@@ -26,7 +26,7 @@ library:
   source-dirs: src
 
 executables:
-  haskell-binary-search-sqrt-exe:
+  binary-search-sqrt-haskell-exe:
     main:                Main.hs
     source-dirs:         app
     ghc-options:
@@ -34,10 +34,10 @@ executables:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - haskell-binary-search-sqrt
+    - binary-search-sqrt-haskell
 
 tests:
-  haskell-binary-search-sqrt-test:
+  binary-search-sqrt-haskell-test:
     main:                Spec.hs
     source-dirs:         test
     ghc-options:
@@ -45,4 +45,4 @@ tests:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - haskell-binary-search-sqrt
+    - binary-search-sqrt-haskell
