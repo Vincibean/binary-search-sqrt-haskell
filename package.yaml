@@ -46,3 +46,4 @@ tests:
     - -with-rtsopts=-N
     dependencies:
     - binary-search-sqrt-haskell
+    - HUnit
